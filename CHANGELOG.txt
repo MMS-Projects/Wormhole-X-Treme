@@ -1,3 +1,7 @@
+Changes v1.018
+- added '/wxforce <gateName|-all>' command, used to globally toggle all iris-states. 
+  Uses the 'wormhole.config' or 'wormhole.remove.all' permission nodes.
+
 Changes v1.017
 - removed Help as its out of date. Will be re-added later.
 - fixed sign-reverse rotation NPE

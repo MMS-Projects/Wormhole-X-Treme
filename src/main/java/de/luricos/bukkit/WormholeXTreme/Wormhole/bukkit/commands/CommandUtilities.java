@@ -35,7 +35,7 @@ import java.util.ArrayList;
  */
 public class CommandUtilities {
 
-    /**
+	/**
      * Close gate.
      * 
      * @param stargate
@@ -59,6 +59,20 @@ public class CommandUtilities {
                 stargate.toggleIrisActive(false);
             }
         }
+    }
+    
+    /**
+     * Toggle iris.
+     * 
+     * @param stargate
+     *            the stargate
+     */
+    public static boolean toggleIris(final Stargate stargate) {
+        if (stargate != null) {
+            stargate.toggleIrisActive(false);
+            return stargate.isGateIrisActive();
+        }
+        return false;
     }
 
     /**

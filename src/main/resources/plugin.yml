@@ -1,7 +1,7 @@
 name: WormholeXTreme
 main: de.luricos.bukkit.WormholeXTreme.Wormhole.WormholeXTreme
-version: 1.017
-authors: [Lologarithm, alron, lycano]
+version: 1.018
+authors: [Lologarithm, alron, lycano, happymoep]
 softdepend: [PermissionsEx, WormholeXTremeWorlds, Help]
 description: >
              Wormhole X-Treme! Wormholes as travel portals. Splash Effect, IDC,
@@ -68,6 +68,11 @@ commands:
 
    wxforce:
      description: Forcefully shut down, darken, and open the iris of either a single or all gates.
+     usage: |
+            /<command> <gateName|-all>
+
+   wxtoggle:
+     description: Toggle the iris-state(s) of either a single or all gates.
      usage: |
             /<command> <gateName|-all>
 
